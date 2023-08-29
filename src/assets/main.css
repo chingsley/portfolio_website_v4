@@ -3,7 +3,6 @@
 ::before {
   box-sizing: border-box;
 }
-
 :root {
   /* COLORS  */
   /* primary */
@@ -106,12 +105,10 @@ h5 {
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
 }
-
 .img {
   width: 100%;
   display: block;
 }
-
 h1 {
   font-size: 3.052rem;
 }
@@ -141,11 +138,9 @@ ul {
   padding: 0;
   list-style-type: none;
 }
-
 a {
   text-decoration: none;
 }
-
 /*************
      Buttons 
 *************/
@@ -163,30 +158,25 @@ button,
   transition: var(--transition);
   text-transform: capitalize;
 }
-
 button:hover,
 .btn:hover {
   color: var(--white);
   background: var(--primary-700);
   box-shadow: var(--shadow-2);
 }
-
 button.small {
   padding: 0.25rem 0.5rem;
   font-size: var(--smallText);
 }
-
 button.hipster {
   color: var(--primary-500);
   background: var(--primary-50);
   box-shadow: var(--shadow-1);
 }
-
 button.hipster:hover {
   background: var(--primary-100);
   box-shadow: var(--shadow-2);
 }
-
 button.block {
   width: 100%;
 }
@@ -200,11 +190,9 @@ Animation
   0% {
     transform: scale(1);
   }
-
   50% {
     transform: scale(1.1);
   }
-
   100% {
     transform: scale(1);
   }
