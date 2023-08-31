@@ -1,15 +1,15 @@
 import styled from 'styled-components';
-import { skills } from '../data/skills.data';
-import { TSkill } from '../types/skill.type';
-import SectionTitle from './SectionTitle';
-import SkillsCard from './SkillsCard';
-const Skills = () => {
+import { skills } from '../../data/skills.data';
+import { TSkill } from '../../types/skill.type';
+import SectionTitle from '../SectionTitle';
+import Skill from './Skill';
+const SkillSection = () => {
   return (
     <Wrapper className='py-20 align-element ' id='skills'>
       <SectionTitle text='teck stack' />
       <div className='skills'>
         {skills.map((skill: TSkill) => {
-          return <SkillsCard key={skill.id} {...skill} />;
+          return <Skill key={skill.id} {...skill} />;
         })}
       </div>
     </Wrapper>
@@ -21,7 +21,7 @@ background-color: #e5e7eb;
 padding: 6rem 2rem;
 
 @media screen and (min-width: 800px) {
-  padding: 6rem 7rem;
+  padding: 6rem 7rem 1rem 7rem;
 }
 
 .skills {
@@ -43,4 +43,4 @@ padding: 6rem 2rem;
 }
 
 `;
-export default Skills;
+export default SkillSection;

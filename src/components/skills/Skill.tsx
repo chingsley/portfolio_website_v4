@@ -1,12 +1,12 @@
 import styled from "styled-components";
-import Icon from "./Icon";
+import Icon from "../Icon";
 
-interface SkillsCardProps {
+interface SkillProps {
   icon: string;
   title: string;
   text: string;
 }
-const SkillsCard: React.FC<SkillsCardProps> = ({ icon, title, text }) => {
+const Skill: React.FC<SkillProps> = ({ icon, title, text }) => {
   return (
     <Wrapper>
       <span>
@@ -29,4 +29,4 @@ const Wrapper = styled.article`
     color: rgb(100 116 139 / var(--tw-text-opacity));
   }
 `;
-export default SkillsCard;
+export default Skill;
