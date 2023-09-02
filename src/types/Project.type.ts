@@ -1,5 +1,5 @@
 export interface TProject {
-  id: number;
+  id: string;
   name: string;
   image: string;
   url: string;
