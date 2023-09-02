@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
-import heroImg from '../assets/svg/hero.svg';
+import heroImg from '../../assets/svg/hero.svg';
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <Wrapper>
       <div className='hero'>
@@ -16,13 +16,13 @@ const Hero = () => {
             turning ideas into interactive reality
           </p>
           <div className='hero-article__icons'>
-            <a href='#'>
+            <a href='https://github.com/chingsley'>
               <FaGithubSquare className='hero-article__icons--icon' />
             </a>
-            <a href='#'>
+            <a href='https://www.linkedin.com/in/kingsley-eneja-3a376a160'>
               <FaLinkedin className='hero-article__icons--icon' />
             </a>
-            <a href='#'>
+            <a href='https://twitter.com/login?lang=en'>
               <FaTwitterSquare className='hero-article__icons--icon' />
             </a>
           </div>
@@ -38,13 +38,12 @@ const Hero = () => {
           </div>
         </article>
         <article className='hero-article right img-container'>
-          <img src={heroImg} className='hero-article__img' />
+          <img src={heroImg} alt="hero img" className='hero-article__img' />
         </article>
       </div>
     </Wrapper>
   );
 };
-
 
 const Wrapper = styled.div`
   background-color: rgb(209 250 229);
@@ -138,4 +137,4 @@ const Wrapper = styled.div`
   }
 `;
 
-export default Hero;
+export default HeroSection;

@@ -6,27 +6,22 @@ export interface ILink {
 export const links: ILink[] = [
   {
     id: 1,
-    url: '/',
+    url: '#home',
     text: 'home',
   },
   {
+    id: 5,
+    url: '#skills',
+    text: 'profile',
+  },
+  {
     id: 2,
-    url: '/about',
+    url: '#about',
     text: 'about',
   },
   {
     id: 3,
-    url: '/projects',
+    url: '#projects',
     text: 'projects',
-  },
-  {
-    id: 4,
-    url: '/contact',
-    text: 'contact',
-  },
-  {
-    id: 5,
-    url: '/profile',
-    text: 'profile',
   },
 ];
