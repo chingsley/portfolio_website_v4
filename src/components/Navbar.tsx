@@ -28,7 +28,7 @@ const Navbar = () => {
     }
   }, [showLinks]);
   return (
-    <StyledWrapper>
+    <StyledWrapper id='home'>
       <nav>
         <div className="nav-center">
           <div className="nav-header">
@@ -51,15 +51,7 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-          <div className="resume">
-            {/* <a
-              href="https://drive.google.com/file/d/1ZUa92zaJgJi3NKIb8wI71ufWqDBRF0Ey/view?usp=drive_link"
-              target="_blank"
-              rel="noreferrer"
-              className="resume-link"
-            >
-              Download Resume
-            </a> */}
+          <div className="dummy-div">
           </div>
         </div>
       </nav>

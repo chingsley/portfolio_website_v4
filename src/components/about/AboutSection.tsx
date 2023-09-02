@@ -5,7 +5,7 @@ import aboutData from '../../data/about.data';
 
 const AboutSection = () => {
   return (
-    <Wrapper>
+    <Wrapper id='about'>
       <div className="content">
         <div className="content-left">
           <img src={aboutImg} alt="" />

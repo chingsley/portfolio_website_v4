@@ -1,12 +1,11 @@
-import React from 'react';
 import styled from 'styled-components';
-import SectionTitle from './SectionTitle';
+import SectionTitle from '../SectionTitle';
 import Project from './Project';
-import projectsData from '../data/projects.data';
+import projectsData from '../../data/projects.data';
 
-const Projects = () => {
+const ProjectSection = () => {
   return (
-    <Wrapper>
+    <Wrapper id='projects'>
       <SectionTitle text='projects' />
       <div className="projects">
         {projectsData.map((project) => {
@@ -33,4 +32,4 @@ const Wrapper = styled.div`
   }
 `;
 
-export default Projects;
+export default ProjectSection;
