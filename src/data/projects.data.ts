@@ -33,7 +33,22 @@ const projects = [
     type: 'advanced',
     order: 3
   },
-
+  {
+    id: nanoid(),
+    name: 'Hoobank',
+    image: require('../assets/img/hoobank.jpg'),
+    url: 'https://kc-hoobank-modern-business-website.netlify.app/',
+    type: 'advanced',
+    order: 3
+  },
+  {
+    id: nanoid(),
+    name: 'Gericht Restaurant',
+    image: require('../assets/img/gericht.jpg'),
+    url: 'https://kc-gericht-restaurant.netlify.app/',
+    type: 'advanced',
+    order: 3
+  },
 ];
 
 export default projects;
