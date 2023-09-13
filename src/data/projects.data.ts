@@ -96,6 +96,14 @@ const projects = [
     url: 'https://kcomp-movie-list.netlify.app/',
     type: 'advanced',
     order: 3
+  },
+  {
+    id: nanoid(),
+    name: 'Interview Scheduler',
+    image: require('../assets/img/interview-scheduler.jpg'),
+    url: 'https://kcomp-movie-list.netlify.app/',
+    type: 'advanced',
+    order: 3
   }
 ];
 
