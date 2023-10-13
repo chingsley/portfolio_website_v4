@@ -28,7 +28,7 @@ const HeroSection = () => {
           </div>
           <div className='hero-article__resume'>
             <a
-              href="https://drive.google.com/file/d/1ZUa92zaJgJi3NKIb8wI71ufWqDBRF0Ey/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1g75akX5J7TYjK2y_RRctX2UengcUfnmq/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className='hero-article__resume--link'

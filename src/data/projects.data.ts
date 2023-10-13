@@ -97,23 +97,23 @@ const projects = [
     type: 'advanced',
     order: 3
   },
-  {
-    id: nanoid(),
-    name: 'Interview Scheduler',
-    image: require('../assets/img/interview-scheduler.jpg'),
-    url: 'https://kcomp-movie-list.netlify.app/',
-    type: 'advanced',
-    order: 3
-  },
-  {
-    id: nanoid(),
-    name: 'PhotoLab',
-    image: require('../assets/img/interview-scheduler.jpg'),
-    url: 'https://photolabskc.netlify.app/',
-    type: 'advanced',
-    description: 'PhotoLabs is a simple stock photo application - specifically a React-based single-page application (SPA) that allows users to view photos in different contexts.',
-    order: 3
-  }
+  // {
+  //   id: nanoid(),
+  //   name: 'Interview Scheduler',
+  //   image: require('../assets/img/interview-scheduler.jpg'),
+  //   url: 'https://kcomp-movie-list.netlify.app/',
+  //   type: 'advanced',
+  //   order: 3
+  // },
+  // {
+  //   id: nanoid(),
+  //   name: 'PhotoLab',
+  //   image: require('../assets/img/interview-scheduler.jpg'),
+  //   url: 'https://photolabskc.netlify.app/',
+  //   type: 'advanced',
+  //   description: 'PhotoLabs is a simple stock photo application - specifically a React-based single-page application (SPA) that allows users to view photos in different contexts.',
+  //   order: 3
+  // }
 ];
 
 export default projects;
