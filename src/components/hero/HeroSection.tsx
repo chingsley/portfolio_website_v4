@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
 import heroImg from '../../assets/svg/hero.svg';
+import resumeUrl from "../../data/resumeUrl.data";
 
 const HeroSection = () => {
   return (
@@ -28,7 +29,7 @@ const HeroSection = () => {
           </div>
           <div className='hero-article__resume'>
             <a
-              href="https://drive.google.com/file/d/1g75akX5J7TYjK2y_RRctX2UengcUfnmq/view?usp=sharing"
+              href={resumeUrl}
               target="_blank"
               rel="noreferrer"
               className='hero-article__resume--link'
