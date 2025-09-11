@@ -11,7 +11,7 @@ const HeroSection = () => {
         <article className='hero-article left'>
           <h1 className='hero-article__name'>I'm Kingsley</h1>
           <p className='hero-article__title'>
-            Fullstack Developer
+            Senior Backend & Fullstack Developer
           </p>
           <p className='hero-article__slogan'>
             turning ideas into interactive reality

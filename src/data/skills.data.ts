@@ -4,27 +4,29 @@ import { nanoid } from 'nanoid';
 export const skills: TSkill[] = [
   {
     id: nanoid(),
-    title: 'React',
-    icon: 'FaReact',
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
-  },
-  {
-    id: nanoid(),
     title: 'NodeJS',
     icon: 'SiNodedotjs',
-    text: 'Expertise in JavaScript/NodeJS, with 6 years of professional experience building robust, scallable and dynamic web applications with a focus on excellent user experience',
+    text: 'Expertise in JavaScript/NodeJS, with 7 years of professional experience building robust, scallable and dynamic web applications with a focus on excellent user experience',
   },
   {
     id: nanoid(),
     title: 'Go',
     icon: 'SiGo',
-    text: '3 years building fast, efficient and scalable servers with golang. Implemented highly resilient and distrubuted systems using for large scale organizations',
+    text: '4 years building fast, efficient and scalable servers with golang. Implemented highly resilient and distrubuted systems using for large scale organizations',
+  },
+  {
+    id: nanoid(),
+    title: 'React & React Native',
+    icon: 'FaReact',
+    text: `
+    Advanced proficiency in React and React Native, developing efficient and interactive front-end applications with a strong emphasis on scalable, component-based architecture, great usability, performant and easy to extend.
+    `,
   },
   {
     id: nanoid(),
     title: 'Python',
     icon: 'SiPython',
-    text: '2 years professional experience with python flask. Basic data anylisis with Pandas, numpy and scipy.',
+    text: '4 years professional experience with python flask. Basic data anylisis with Pandas, numpy and scipy.',
   },
   {
     id: nanoid(),

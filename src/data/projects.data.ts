@@ -3,14 +3,6 @@ import { nanoid } from 'nanoid';
 const projects = [
   {
     id: nanoid(),
-    name: 'IHML',
-    image: require('../assets/img/ihml.jpg'),
-    url: 'https://dhml-staging.herokuapp.com/',
-    type: 'advanced',
-    order: 1
-  },
-  {
-    id: nanoid(),
     name: 'e-Commerce',
     image: require('../assets/img/e-commerce.jpg'),
     url: 'https://kdev-classycorner.netlify.app/',
@@ -64,6 +56,14 @@ const projects = [
     url: 'https://showtower.netlify.app/',
     type: 'advanced',
     order: 3
+  },
+  {
+    id: nanoid(),
+    name: 'IHML',
+    image: require('../assets/img/ihml.jpg'),
+    url: 'https://dhml-staging.herokuapp.com/',
+    type: 'advanced',
+    order: 1
   },
   {
     id: nanoid(),
