@@ -51,8 +51,6 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-          <div className="dummy-div">
-          </div>
         </div>
       </nav>
     </StyledWrapper>
@@ -60,18 +58,25 @@ const Navbar = () => {
 };
 
 const StyledWrapper = styled.div`
+// MOBILE VIEW:
+
   background: rgb(209 250 229);
   padding: 2rem 2rem;
 
   .nav-center {
     // border: 1px solid blue;
-    // max-width: 80rem;
   }
 
   .nav-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  
+  .links-container {
+    height: 0;
+    overflow: hidden;
+    transition:  all 0.3s linear;
   }
 
   .nav-toggle {
@@ -113,19 +118,13 @@ const StyledWrapper = styled.div`
     color: rgb(5 150 105 / var(--tw-text-opacity));
   }
 
-  .links-container {
-    height: 0;
-    overflow: hidden;
-    transition:  all 0.3s linear;
-  }
 
-
+  // DESKTOP VIEW:
   @media screen and (min-width: 800px) {
     background-color: rgb(209 250 229);
     padding: 2rem 7rem;
 
     .nav-center {
-      margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
