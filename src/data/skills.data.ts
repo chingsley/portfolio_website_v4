@@ -4,23 +4,24 @@ import { nanoid } from 'nanoid';
 export const skills: TSkill[] = [
   {
     id: nanoid(),
-    title: 'NodeJS',
+    title: 'Typescript/ NodeJS',
     icon: 'SiNodedotjs',
-    text: 'Expertise in JavaScript/NodeJS, with 7 years of professional experience building robust, scallable and dynamic web applications with a focus on excellent user experience',
+    text: 'Expertise in Typescript/ NodeJS, with 7 years of professional experience building robust, scallable and dynamic web applications with a focus on excellent user experience.',
   },
   {
     id: nanoid(),
     title: 'Go',
     icon: 'SiGo',
-    text: '4 years building fast, efficient and scalable servers with golang. Implemented highly resilient and distrubuted systems using for large scale organizations',
+    text: '4 years building fast, efficient and scalable servers with golang. Implemented highly resilient and distrubuted systems using for large scale organizations.',
   },
   {
     id: nanoid(),
     title: 'React & React Native',
     icon: 'FaReact',
-    text: `
-    Advanced proficiency in React and React Native, developing efficient and interactive front-end applications with a strong emphasis on scalable, component-based architecture, great usability, performant and easy to extend.
-    `,
+    text: 'Skilled in React and React Native, building interactive and high-performance front-end applications based on scalable component architecture'
+    // text: `
+    // Advanced proficiency in React and React Native, developing efficient and interactive front-end applications with a strong emphasis on scalable, component-based architecture, great usability, performant and easy to extend.
+    // `,
   },
   {
     id: nanoid(),
@@ -32,6 +33,12 @@ export const skills: TSkill[] = [
     id: nanoid(),
     title: 'Ruby on Rails',
     icon: 'Ruby',
-    text: 'Have worked on a couple of fullstack applications using rails and embeded ruby templae. Built a few backend servers with Ruby on Rails',
+    text: 'Have worked on a couple of fullstack applications using rails and embeded ruby templae. Built a few backend servers with Ruby on Rails.',
+  },
+  {
+    id: nanoid(),
+    title: 'Database',
+    icon: 'FiDatabase',
+    text: 'I have 7+ years experience working with both relational and non-relational DB including Postgres, MySQL, MsSQL, Oracle, SQLite, and MongoDB.',
   },
 ];

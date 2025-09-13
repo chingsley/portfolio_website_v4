@@ -32,6 +32,10 @@ body {
   --tw-text-opacity: 1;
   color: rgb(16 185 129 / var(--tw-text-opacity));
 }
+.multi-icon-container {
+  display: flex;
+  flex-direction: row;
+}
 
 .bb {
   border-bottom: 0.5px solid rgb(16 185 129 / var(--tw-text-opacity));
