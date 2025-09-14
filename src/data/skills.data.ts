@@ -19,9 +19,6 @@ export const skills: TSkill[] = [
     title: 'React & React Native',
     icon: 'FaReact',
     text: 'Skilled in React and React Native, building interactive and high-performance front-end applications based on scalable component architecture'
-    // text: `
-    // Advanced proficiency in React and React Native, developing efficient and interactive front-end applications with a strong emphasis on scalable, component-based architecture, great usability, performant and easy to extend.
-    // `,
   },
   {
     id: nanoid(),

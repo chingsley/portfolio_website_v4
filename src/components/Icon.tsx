@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
-import { SiPython, SiGo, SiRubyonrails, SiTypescript } from 'react-icons/si';
+import { SiPython, SiGo, SiRubyonrails } from 'react-icons/si';
 import { BiLogoTypescript } from "react-icons/bi";
 import { FiDatabase } from "react-icons/fi";
 import { DiNodejs } from "react-icons/di";
