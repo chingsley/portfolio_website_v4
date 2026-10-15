@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { TProject } from "../../types/Project.type";
 
 
-const Project: React.FC<TProject> = ({ name, image, url }) => {
+const Project: React.FC<TProject> = ({ name, image, url, imageObjectPosition }) => {
   return (
     <Wrapper
       href={url}
@@ -11,7 +11,12 @@ const Project: React.FC<TProject> = ({ name, image, url }) => {
       rel="noopener noreferrer"
       className="project"
     >
-      <img src={image} alt={name} className="img" />
+      <img
+        src={image}
+        alt={name}
+        className="img"
+        style={imageObjectPosition ? { objectPosition: imageObjectPosition } : undefined}
+      />
       <footer>
         <h2>{name}</h2>
       </footer>

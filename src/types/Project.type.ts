@@ -5,4 +5,5 @@ export interface TProject {
   url: string;
   type: string;
   order: number;
+  imageObjectPosition?: string;
 };

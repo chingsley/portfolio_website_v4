@@ -3,6 +3,15 @@ import { nanoid } from 'nanoid';
 const projects = [
   {
     id: nanoid(),
+    name: 'Kawaiz',
+    image: require('../assets/img/kawaiz.jpg'),
+    url: 'https://kawaiz.com/',
+    type: 'advanced',
+    order: 1,
+    imageObjectPosition: 'top'
+  },
+  {
+    id: nanoid(),
     name: 'e-Commerce',
     image: require('../assets/img/e-commerce.jpg'),
     url: 'https://kdev-classycorner.netlify.app/',
