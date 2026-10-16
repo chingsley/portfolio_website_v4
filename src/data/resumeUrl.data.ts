@@ -1,4 +1,4 @@
-// const resumeUrl = "https://drive.google.com/file/d/1g75akX5J7TYjK2y_RRctX2UengcUfnmq/view?usp=sharing";
-const resumeUrl = "https://drive.google.com/file/d/1f9rqd4EExSCgSEQZQpmxBosBluaf9iEJ/view?usp=sharing";
+// Served from public/ at deploy time so the PDF opens in-browser (with native download).
+const resumeUrl = `${process.env.PUBLIC_URL}/kingsley_eneja_cv.pdf`;
 
 export default resumeUrl;
